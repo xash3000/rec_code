@@ -13,7 +13,7 @@ def rec_bs(arr, element):
         first, last = 0, len(arr)
         mid = (first + last) // 2
         if arr[mid] == element:
-            return True
+            return mid
         elif arr[mid] > element:
             return rec_bs(arr[:mid], element)
         elif arr[mid] < element:

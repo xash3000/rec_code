@@ -15,5 +15,5 @@ def rec_rev(arr):
 
 
 # test
-arr = range(100)
+arr = list(range(100))
 print(rec_rev(arr))
